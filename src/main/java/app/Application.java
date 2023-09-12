@@ -13,7 +13,5 @@ public class Application {
             AnimalsCage bean = applicationContext.getBean("animalsCageBean", AnimalsCage.class);
             bean.whatAnimalSay();
         }
-
     }
-
 }
